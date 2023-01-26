@@ -1,0 +1,77 @@
+/* pre 선택자 */
+pre{
+    text-align: center;
+    color: blue;
+}
+/* class 선택자 */
+.multi1{
+    color:blueviolet
+}
+.multi3{
+    background-color:darksalmon
+}
+
+
+/* id선택자 */
+#multi1{
+    color: magenta;
+}
+
+/* 자식 선택자 */
+#children1 > p {
+    background-color: darkblue;
+    color: green;
+}
+
+#children1 > div > p {
+    background-color: beige;
+    color: red;
+}
+
+/* 하위 */
+#children2 span{
+    color: brown;
+}
+
+/* 인접 */
+span + pre{
+    color: hotpink;
+    background-color: yellow;
+}
+/* 가상 클래스 */
+
+/* 방문하지않은 링크 */
+a:link{
+    color : green;
+    font-size: 20pt;
+}
+/*  */
+
+a:visited{
+    color: black;
+    font-size: 10pt;
+}
+
+/* 링크에 마우스 오버시 */
+a:hover{
+    background-color: aqua;
+}
+/* 체크하면 커짐 */
+input:checked{
+    width: 100px;
+    height: 100px
+}
+
+/* 링크 클릭시 */
+a:active{
+    background-color: red;
+    color: yellow;
+}
+
+/* *선택자 */
+/* *{
+    font-family: 궁서체;
+    color: black;
+    background-color:moccasin;
+    text-align: left;
+} */
