@@ -36,7 +36,7 @@
 * 각각에 width,height 과 margin 값 등을 부여하여 구역을 나눔
 * 태그 안에 사용된 리스트들을 `float`을 사용하여 정렬하여 꾸밈
   
-## 사용된 css 소스
+## 사용된 소스코드
 🔗[header.sss](./source/resources/css/header.css)
 
 🔗[selector.sss](./source/resources/css/selector.sss)
@@ -44,6 +44,7 @@
 
 🔗[footer.sss](./source/resources/css/footer.sss)
 
+🔗[html](./source/2023_01_25_1.html)
 
 ## 결과
 > 지금은 결과에 보더로 영역만 표시를 해둔 상태이다.
