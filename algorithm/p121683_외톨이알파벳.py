@@ -26,8 +26,8 @@ def solution(input_string):
         # 전처리된 check 리스트에서 txt를 이용해 키값을 받음
         check_dict[txt].append(count)
         # 해당 키값의 value인 리스트에 1을 append한다
-        
-        # 위에서 입력 받은 check_dict의 해당 value리스트의 길이가 2이상일 때를
+
+        # 위에서 입력 받은 check_dict의 해당 value리g스트의 길이가 2이상일 때를
         # 외톨이 알파벳이라고 정의한다.
     for key in dict.keys():
         if len(dict[key]) >= 2:
