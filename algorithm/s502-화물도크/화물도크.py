@@ -2,7 +2,7 @@
 # A도크 사용신청서에 작업 시간과 완료시간이 매 정각을 기준으로 표시
 # 앞 작업의 종료와 동시에 다음 작업 가능
 import sys
-sys.stdin = open('input.txt')
+sys.stdin = open('algorithm\s502-화물도크\input.txt')
 
 T = int(input())
 for test_case in range(1, T+1):
